@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <navbar>
+    <nav>
         <div class="navbar bg-base-100">
             <div class="dropdown">
                 <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -20,7 +20,6 @@ const Navbar = () => {
                 </ul>
                 </div>
 
-
             <div class="navbar-start">
                 <a class="btn btn-ghost normal-case text-xl">آذرخش</a>
             </div>
@@ -36,7 +35,7 @@ const Navbar = () => {
             </div>
 
         </div>
-    </navbar>
+    </nav>
   )
 }
 
