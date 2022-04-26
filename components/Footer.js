@@ -7,7 +7,7 @@ import InstagramIcon from './Icons/InstagramIcon'
 
 const Footer = () => {
   return (
-    <footer className='relative'>
+    <footer className='relative mt-60'>
       <h2 className="text-center mb-5">ارتباط با ما</h2>
         <div className='flex justify-center gap-10 '>
         <MailIcon/>

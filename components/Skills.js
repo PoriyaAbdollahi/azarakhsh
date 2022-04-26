@@ -5,7 +5,7 @@ import SkillsIcon3 from './Icons/SkillsIcon3'
 
 const Skills = () => {
   return (
-    <section>
+    <section className='mt-20'>
         <h2 className='text-center font-medium leading-tight text-4xl mt-0 mb-2'>مهارت های تیم آذرخش</h2>
         <div className='flex flex-col items-center justify-center md:flex-row'>
             <div class="card w-96 bg-base-100 shadow-xl flex items-center justify-center m-10" >
