@@ -5,7 +5,7 @@ import CirclePattern from './Icons/CirclePattern'
 const Layout = ({ children }) => {
 
   return (
-    <div dir="rtl" data-theme="sky" className='font-vazir' >
+    <div dir="rtl" data-theme="sky" className='font-vazir bg-secondary' >
       <CirclePattern/>
         <header>
         <Navbar/>

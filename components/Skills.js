@@ -6,9 +6,9 @@ import SkillsIcon3 from './Icons/SkillsIcon3'
 const Skills = () => {
   return (
     <section className='mt-20'>
-        <h2 className='text-center font-medium leading-tight text-4xl mt-0 mb-2'>مهارت های تیم آذرخش</h2>
+        <h2 className='text-center font-medium leading-tight text-4xl mt-0 mb-2 text-accent'>مهارت های تیم آذرخش</h2>
         <div className='flex flex-col items-center justify-center md:flex-row'>
-            <div class="card w-96 bg-base-100 shadow-xl flex items-center justify-center m-10" >
+            <div class="card w-96  bg-secondary shadow-xl flex items-center justify-center m-10 text-accent" >
             <SkillsIcon1/>
                 <div class="card-body text-center">
                     <p>طراحی رابط کاربری و تجربه کاربری </p>
@@ -16,7 +16,7 @@ const Skills = () => {
                 </div>
             </div>
 
-            <div class="card w-96 bg-base-100 shadow-xl flex items-center justify-center m-10" >
+            <div class="card w-96  bg-secondary shadow-xl flex items-center justify-center m-10 text-accent" >
             <SkillsIcon2/>
                 <div class="card-body text-center">
                     <p>توسعه و طراحی بک اند </p>
@@ -24,7 +24,7 @@ const Skills = () => {
                 </div>
             </div>
 
-            <div class="card w-96 bg-base-100 shadow-xl flex items-center justify-center m-10" >
+            <div class="card w-96  bg-secondary shadow-xl flex items-center justify-center m-10 text-accent" >
             <SkillsIcon3/>
                 <div class="card-body text-center">
                     <p>طراحی و توسعه فرانت اند</p>

@@ -16,13 +16,13 @@ module.exports = {
     themes: [
       {
         sky: {
-          "primary": "#608AF5",
+          "primary": "#FDC206",
           
-          "secondary": "#D926A9",
+          "secondary": "#FFFFFF",
                    
-          "accent": "#1FB2A6",
+          "accent": "#002265",
                    
-          "neutral": "#191D24",
+          "neutral": "#000000",
                    
           "base-100": "#2A303C",
                    

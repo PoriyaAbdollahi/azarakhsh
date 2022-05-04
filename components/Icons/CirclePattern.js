@@ -2,27 +2,27 @@ import React from 'react'
 
 const CirclePattern = () => {
   return (
-    <svg className="absolute" width="1247" height="1783" viewBox="0 0 1247 1783" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg className="absolute  w-full left-0 top-0"  height="1783" viewBox="0 0 1247 1783" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g filter="url(#filter0_f_134_12)">
-    <ellipse cx="411.5" cy="524.5" rx="47.5" ry="48.5" fill="#0E85F3" fill-opacity="0.16"/>
+    <ellipse  cx="411.5" cy="524.5" rx="47.5" ry="48.5" fill="#FDC206" fill-opacity="0.16"/>
     </g>
     <g filter="url(#filter1_f_134_12)">
-    <ellipse cx="1122" cy="257.5" rx="71" ry="66.5" fill="#0E85F3" fill-opacity="0.23"/>
+    <ellipse cx="1122" cy="257.5" rx="71" ry="66.5" fill="#FDC206" fill-opacity="0.23"/>
     </g>
     <g filter="url(#filter2_f_134_12)">
-    <ellipse cx="805.5" cy="1104" rx="98.5" ry="104" fill="#0E85F3" fill-opacity="0.19"/>
+    <ellipse cx="805.5" cy="1104" rx="98.5" ry="104" fill="#FDC206" fill-opacity="0.19"/>
     </g>
     <g filter="url(#filter3_f_134_12)">
-    <ellipse cx="178.5" cy="1381" rx="98.5" ry="104" fill="#0E85F3" fill-opacity="0.19"/>
+    <ellipse cx="178.5" cy="1381" rx="98.5" ry="104" fill="#FDC206" fill-opacity="0.19"/>
     </g>
     <g filter="url(#filter4_f_134_12)">
-    <ellipse cx="1087" cy="1656.5" rx="77" ry="72.5" fill="#0E85F3" fill-opacity="0.19"/>
+    <ellipse cx="1087" cy="1656.5" rx="77" ry="72.5" fill="#FDC206" fill-opacity="0.19"/>
     </g>
     <g filter="url(#filter5_f_134_12)">
-    <ellipse cx="111.5" cy="760" rx="57.5" ry="52" fill="#0E85F3" fill-opacity="0.19"/>
+    <ellipse cx="111.5" cy="760" rx="57.5" ry="52" fill="#FDC206" fill-opacity="0.19"/>
     </g>
     <g filter="url(#filter6_f_134_12)">
-    <ellipse cx="181.5" cy="130.5" rx="70.5" ry="65.5" fill="#0E85F3" fill-opacity="0.22"/>
+    <ellipse cx="181.5" cy="130.5" rx="70.5" ry="65.5" fill="#FDC206" fill-opacity="0.22"/>
     </g>
     <defs>
     <filter id="filter0_f_134_12" x="322" y="434" width="179" height="181" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
