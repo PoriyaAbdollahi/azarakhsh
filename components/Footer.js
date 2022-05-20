@@ -14,7 +14,7 @@ const Footer = () => {
         <MailIcon/>
         <PhoneIcon/>
         <GithubIcon/>
-        <InstagramIcon/>
+        {/* <InstagramIcon/> */}
         </div>
       </div>
      
