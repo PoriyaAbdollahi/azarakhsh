@@ -1,15 +1,17 @@
 import React from 'react'
-import TeamIcon from './Icons/TeamIcon'
+import Itguyicon from './Icons/itguyicon'
 const Info = () => {
   return (
-    <section className='mt-10 pb-20'>
-        <div class="hero-content flex-col flex mt-30 ">
-            <TeamIcon  className="max-w-sm md:max-w-lg" />
-           
-                <h2 class="text-2xl   font-bold text-center -mt-20 text-accent"> ما دوستانی هستیم با اهداف مشابه که در کنار یکدگیر یاد گرفتیم چجوری  مسائل دشوار رو به آسانی وسرعت 
-حل کنیم </h2>
+    <section class="hero min-h-screen" >
+        <div class="hero-content flex-col lg:flex-row-reverse">
+            <Itguyicon  className="max-w-sm" />
+            <div>
+                <h1 class="text-5xl font-bold text-accent"> سایتت رو به سرعت آذرخش تحویل بگیر</h1>
+                <p class="py-6 text-accent">تیم ما از بهترین برنامه نویسان و طراحان وب سایت تشکیل شده </p>
+                <button class="btn btn-primary">ثبت سفارش</button>
+            </div>
         </div>
-    </section>
+</section>
   )
 }
 

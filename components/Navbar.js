@@ -14,10 +14,10 @@ const Navbar = () => {
                     </svg>
                 </label>
                 <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2  bg-secondary text-accent w-52  " >
-                        <li><a>درباره ما</a></li>
-                        <li><a>ثبت سفارش</a></li>
-                        <li><a>نمونه کارها</a></li>
-                        <li><a>مهارت ها</a></li>
+                        <li><a href='#aboutus'>درباره ما</a></li>
+                        <li><a href='#portfolio'>نمونه کارها</a></li>
+                        <li><a href='#skills'>مهارت ها</a></li>
+                        <li><a href='#contactus'>تماس با ما</a></li>
                 </ul>
                 </div>
 
@@ -29,11 +29,10 @@ const Navbar = () => {
 
             <div class="navbar-end hidden lg:flex">
                 <ul class="menu menu-horizontal p-0 text-neutral text-xl">
-                        <li><a>درباره ما</a></li>
-                        <li><a>ثبت سفارش</a></li>
-                        <li><a>نمونه کارها</a></li>
-                        <li><a>مهارت ها</a></li>
-                        <li><a class="btn-primary text-secondary ">تماس با ما</a></li>
+                        <li><a href='#aboutus'>درباره ما</a></li>
+                        <li><a href='#portfolio'>نمونه کارها</a></li>
+                        <li><a href='#skills'>مهارت ها</a></li>
+                        <li><a href='#contactus' class="btn-primary text-secondary ">تماس با ما</a></li>
                 </ul>
             </div>
 
