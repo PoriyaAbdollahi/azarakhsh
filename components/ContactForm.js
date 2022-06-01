@@ -67,14 +67,14 @@ const ContactUs = () => {
                 <form  className=" w-full lg:max-w-lg ">
                     <div className="flex flex-wrap -mx-3 mb-6">
                         <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-                        <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2  " for="first-name">
+                        <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2  " htmlFor="first-name">
                             نام
                         </label>
                         <input className= {`appearance-none block w-full bg-gray-200 text-gray-700 focus:border-b-2 ${checkInputName.length>0 ?  "focus:border-b-2 focus:border-primary":"border focus:border-red-400" }  rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:text-primary`  } id="first-name" type="text" placeholder="نوریه"   onChange={(e)=>setCheckInputName(e.target.value)} />
                         {errorElementFullname}
                         </div> 
                         <div className="w-full md:w-1/2 px-3">
-                        <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+                        <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-last-name">
                             نام خانوادگی
                         </label>
                         
@@ -83,7 +83,7 @@ const ContactUs = () => {
                     </div>
                     <div className="flex flex-wrap -mx-3 mb-6">
                         <div className="w-full px-3">
-                        <label className="block uppercase tracking-wide text-gray-700 text-sm  font-bold mb-2" for="grid-password">
+                        <label className="block uppercase tracking-wide text-gray-700 text-sm  font-bold mb-2" htmlFor="grid-password">
                             ایمیل
                         </label>
                         <input className={`appearance-none block w-full bg-gray-200 text-gray-700 focus:border-b-2 ${checkInputEmail.length>0 ?  "focus:border-b-2 focus:border-primary":"border focus:border-red-400" }  rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:text-primary`  } id="email" type="text" placeholder="example@gmail.com"  onChange={(e)=>setCheckInputEmail(e.target.value)}/>
