@@ -29,7 +29,7 @@ const [hideItems , setHideItems] = useState(false)
           color="red"
           path="/learnecl.png"
           alt="Learn ECL"
-          des="سایت داکیومتشون"
+          des="سایت داکیومتنشن"
           href="https://learn.hpccsystems.com/"
          
         />
@@ -60,7 +60,7 @@ const [hideItems , setHideItems] = useState(false)
         
       
         </div>
-          {hideItems? <div className='flex flex-col items-center justify-center md:flex-row' >
+          {/* {hideItems? <div className='flex flex-col items-center justify-center md:flex-row' >
              <div className="card w-196 bg-secondary shadow-xl flex m-10 " >
              <h3 className='mx-5 my-2'>نمونه 1</h3>
              <Circleicon color="red"/>
@@ -76,7 +76,7 @@ const [hideItems , setHideItems] = useState(false)
         
         <div className='justify-center flex items-center'>
         {!hideItems ? <button onClick={()=>onMoreClicked()} className='btn btn-primary' >بیشتر</button> : ""}
-        </div>
+        </div> */}
 
     </section>
   )
