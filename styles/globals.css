@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-    @font-face {
-      font-family: vazir;
-      font-weight: 400;
-      src: url(/fonts/vazir.ttf) format("ttf");
-    }
+  *{
+    font-family: 'Vazirmatn', sans-serif;
   }

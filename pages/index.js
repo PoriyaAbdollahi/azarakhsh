@@ -14,14 +14,21 @@ export default function Home() {
         <meta charset="UTF-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <meta name="robots" content="index, follow" />
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400&family=Work+Sans:wght@300&display=swap" rel="stylesheet"/>
+        
     </Head>
-    <div className="max-w-4xl mx-auto ">
-    <Info/>
-    <Skills/>
-    <Protfolio/>
-    <AboutUs/>
-    <Technologys/>
-    {/* <ContactUs/> */}
+      <div className="max-w-4xl mx-auto " style={{ fontFamily: 'Vazirmatn sans-serif' }}>
+        <p >گرمی</p>
+        <Info/>
+        <Skills/>
+        <Protfolio/>
+        <AboutUs/>
+        <Technologys/>
+        {/* <ContactUs/> */}
     </div>
     </>
    
