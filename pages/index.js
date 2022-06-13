@@ -5,7 +5,9 @@ import Skills from "../components/Skills";
 import Technologys from "../components/Technologys";
 import ContactUs from "../components/ContactForm";
 import Head from 'next/head'
+
 export default function Home() {
+
   return (
     <>
     <Head>
@@ -14,15 +16,12 @@ export default function Home() {
         <meta charset="UTF-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <meta name="robots" content="index, follow" />
-
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
         <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400&family=Work+Sans:wght@300&display=swap" rel="stylesheet"/>
         
     </Head>
-      <div className="max-w-4xl mx-auto " style={{ fontFamily: 'Vazirmatn sans-serif' }}>
-        <p >گرمی</p>
+      <div className="max-w-4xl mx-auto">
         <Info/>
         <Skills/>
         <Protfolio/>
@@ -31,6 +30,5 @@ export default function Home() {
         {/* <ContactUs/> */}
     </div>
     </>
-   
   )
 }
