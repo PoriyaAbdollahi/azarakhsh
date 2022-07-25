@@ -12,7 +12,7 @@ const [hideItems , setHideItems] = useState(false)
     <section className='mt-60 text-accent ' id='portfolio'>
         <h2 className='text-center font-medium leading-tight text-4xl mt-0 mb-2'>نمونه کار ها</h2>
       <div className='flex flex-col items-center justify-center md:flex-row'>
-        
+{/*         
         <Sample
           text="آریا نیرو"
           color="green"
@@ -21,7 +21,7 @@ const [hideItems , setHideItems] = useState(false)
           des="وب سایت فروشگاهی با سیستم مدیریت محتوای آریا نیرو"
           href="https://ariyaniroo.com/"
           
-        />
+        /> */}
 
          
         <Sample
