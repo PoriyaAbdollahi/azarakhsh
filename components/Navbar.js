@@ -23,7 +23,7 @@ const Navbar = () => {
 
               <div className="navbar-start">
                   <Link href='/' >
-                <a className="btn btn-ghost normal-case text-xl">
+                <a className=" btn-ghost normal-case text-xl">
                     <Logo/>
                       </a>
                       </Link>

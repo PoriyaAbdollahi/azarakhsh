@@ -25,7 +25,7 @@ const Info = () => {
         <div className='w-96 md:w-full text-center '>
           <h1 className="text-4xl font-bold text-accent "> سایتت رو به سرعت آذرخش  تحویل بگیر</h1>
                 <p className="py-6 text-accent">تیم ما از بهترین برنامه نویسان و طراحان وب سایت تشکیل شده </p>
-          <button className="btn btn-primary">ثبت سفارش <Pencil/></button>
+          <a href='#order' className="btn btn-primary"><Pencil /> ثبت سفارش   </a>
             </div>
         </div>
 </section>
