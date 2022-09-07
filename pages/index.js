@@ -27,7 +27,7 @@ export default function Home() {
         <Protfolio/>
         <AboutUs/>
         <Technologys/>
-        {/* <ContactUs/> */}
+        <ContactUs/>
     </div>
     </>
   )

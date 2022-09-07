@@ -45,17 +45,42 @@ const ContactUs = () => {
         }
 
         if((text)){
-            form.text= text
+            form.description = text
             seterrorElementText("")
         }else{
-            succeedElementMessage(<p className='text-error text-center w-full'> لطفا توضیحات خود را وارد کنید</p>)
+            setsucceedElementMessage(" لطفا توضیحات خود را وارد کنید")
             
         }
 
-        if(form.fullname && form.email && form.text){
-            // send to api
-            console.log("sdasd")
-            setsucceedElementMessage(<p className='text-success'>ارسال شد !</p>)
+        if (form.fullname && form.email && form.description){
+            var myHeaders = new Headers();
+            myHeaders.append("Content-Type", "application/json");
+
+            var raw = JSON.stringify({
+                "name": form.fullname,
+                "email": form.email,
+                "text": form.description
+            });
+
+            var requestOptions = {
+                method: 'POST',
+                headers: myHeaders,
+                body: raw,
+                redirect: 'follow'
+            };
+
+            fetch("https://azarakhshmail.vercel.app/", requestOptions)
+                .then(response => response.text())
+                .then(result => { 
+                    if (result === "Email sent") {
+                        setsucceedElementMessage("ارسال شد")
+                        console.log("ites happening")
+                    } else { 
+                        setsucceedElementMessage("ارسال نشد دوباره امتحان کنید")
+                    }
+                })
+                .catch(error => console.log('error', error));
+           
         }
        
     }
@@ -120,7 +145,7 @@ const ContactUs = () => {
                     <button onClick={(e)=>onSubmitForm(e)} className='btn btn-primary'>ارسال</button>
                     
                     </div>
-                    {succeedElement}
+                  <p>{succeedElement}</p> 
                 </form>    
             </div>
     </section>
