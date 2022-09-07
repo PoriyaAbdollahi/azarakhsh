@@ -86,7 +86,7 @@ const ContactUs = () => {
     }
 
   return (
-      <section className='mt-20'>
+      <section className='mt-20' id='order'>
             <h2 className='text-center text-accent text-lg'>با ما در تماس باشید</h2>
             <div className='flex justify-center p-10' >
                 <form  className=" w-full lg:max-w-lg ">
@@ -145,7 +145,7 @@ const ContactUs = () => {
                     <button onClick={(e)=>onSubmitForm(e)} className='btn btn-primary'>ارسال</button>
                     
                     </div>
-                  <p>{succeedElement}</p> 
+                  <p className='text-primary'>{succeedElement}</p> 
                 </form>    
             </div>
     </section>
