@@ -95,7 +95,7 @@ const ContactUs = () => {
                         <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2  " htmlFor="first-name">
                             نام
                         </label>
-                        <input className= {`appearance-none block w-full bg-gray-200 text-gray-700 focus:border-b-2 ${checkInputName.length>0 ?  "focus:border-b-2 focus:border-primary":"border focus:border-red-400" }  rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:text-primary`  } id="first-name" type="text" placeholder="نوریه"   onChange={(e)=>setCheckInputName(e.target.value)} />
+                        <input className= {`appearance-none block w-full bg-gray-200 text-gray-700 focus:border-b-2 ${checkInputName.length>0 ?  "focus:border-b-2 focus:border-primary":"border focus:border-red-400" }  rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:text-primary`  } id="first-name" type="text" placeholder="نام"   onChange={(e)=>setCheckInputName(e.target.value)} />
                         {errorElementFullname}
                         </div> 
                         <div className="w-full md:w-1/2 px-3">
@@ -103,7 +103,7 @@ const ContactUs = () => {
                             نام خانوادگی
                         </label>
                         
-                        <input className={`appearance-none block w-full bg-gray-200 text-gray-700 focus:border-b-2 ${checkInputFamilyName.length>0 ?  "focus:border-b-2 focus:border-primary":"border focus:border-red-400" }  rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:text-primary`  } id="last-name" type="text" placeholder="صافی"  onChange={(e)=>setCheckInputFamilyName(e.target.value)}/>
+                        <input className={`appearance-none block w-full bg-gray-200 text-gray-700 focus:border-b-2 ${checkInputFamilyName.length>0 ?  "focus:border-b-2 focus:border-primary":"border focus:border-red-400" }  rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:text-primary`  } id="last-name" type="text" placeholder="نام خانوادگی"  onChange={(e)=>setCheckInputFamilyName(e.target.value)}/>
                         </div>
                     </div>
                     <div className="flex flex-wrap -mx-3 mb-6">
