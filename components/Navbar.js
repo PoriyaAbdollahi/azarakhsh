@@ -14,10 +14,10 @@ const Navbar = () => {
                     </svg>
                 </label>
                 <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3 p-2  bg-secondary text-accent w-52  " >
-                        <li><Link href='#aboutus'><a >درباره ما</a></Link></li>
+                        <li className='rounded'><Link href='#aboutus'><a >درباره ما</a></Link></li>
                         <li><Link href='#portfolio'><a >نمونه کارها</a></Link></li>
                         <li><Link href='#skills'><a >مهارت ها</a></Link></li>
-                        <li><Link href='#contactus'><a >تماس با ما</a></Link></li>
+                        <li className='rounded-2xl'><Link href='#contactus'><a >تماس با ما</a></Link></li>
                 </ul>
                 </div>
 
@@ -34,7 +34,7 @@ const Navbar = () => {
                         <li><Link href='#aboutus'><a >درباره ما</a></Link></li>
                         <li><Link href='#portfolio'><a >نمونه کارها</a></Link></li>
                         <li><Link href='#skills'><a >مهارت ها</a></Link></li>
-                        <li><Link href='#contactus'><a  className="btn-primary text-secondary ">تماس با ما</a></Link></li>
+                        <li><Link href='#contactus'><a  className="btn-primary text-secondary  rounded">تماس با ما</a></Link></li>
                 </ul>
             </div>
 

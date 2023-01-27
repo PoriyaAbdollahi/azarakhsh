@@ -13,11 +13,11 @@ export default function Home() {
     <Head>
         <title>تیم توسعه آذرخش</title>
         <meta name="description" content="هدف تیم  آذرخش  تحویل  پروژه ها  باسرعت  وکیفیت عالی هست این تیم تشکیل شده از از دوستان صمیمی و  باتجربه است که سردی و گرمی  پروژه هارو باهم دیدن" />
-        <meta charset="UTF-8"></meta>
+        <meta charSet="UTF-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <meta name="robots" content="index, follow" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400&family=Work+Sans:wght@300&display=swap" rel="stylesheet"/>
         
     </Head>
