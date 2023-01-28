@@ -14,16 +14,15 @@ const Info = () => {
     }
   }
   return (
-    <section className="hero min-h-screen" >
-      <div className="hero-content flex-col lg:flex-row-reverse items-center flex justify-center ">
-        {/* <Itguyicon  className="max-w-sm" /> */}
-        <div className=' w-96 md:w-3/6 flex items-center justify-center'>
+    <section className="hero md:py-24" >
+      <div className="hero-content p-0 flex-col lg:flex-row-reverse items-center flex justify-center m-auto ">
+        <div className=' w-96 flex items-center justify-center mx-auto'>
           <Lottie
             options={robot}
             width={900}
           />
         </div >
-        <div className='w-96 md:w-full text-center '>
+        <div className='w-96 text-center min-w-[150px]'>
           <TypeAnimation
             sequence={[' سایتت رو به سرعت آذرخش  تحویل بگیر',8000,'']}
             speed={49}
@@ -31,7 +30,7 @@ const Info = () => {
             repeat={Infinity}
             className="text-4xl font-bold text-accent "
           />
-                <p className="py-6 text-accent">تیم ما از بهترین برنامه نویسان و طراحان وب سایت تشکیل شده </p>
+          <p className="py-6 text-accent ">تیم ما از بهترین برنامه نویسان و طراحان وب سایت<br></br> تشکیل شده </p>
           <a href='#order' className="btn btn-primary"><Pencil /> ثبت سفارش   </a>
             </div>
         </div>
